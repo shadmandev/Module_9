@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\AboutController;
-use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProjectController;
@@ -25,4 +24,4 @@ Route::get('/projects', [ProjectController::class, 'index'])->name('projects.ind
 Route::get('/projects/create', [ProjectController::class, 'create'])->name('projects.create');
 Route::post('/projects/store', [ProjectController::class, 'store'])->name('projects.store');
 Route::delete('/projects/destroy/{id}', [ProjectController::class, 'destroy'])->name('projects.destroy');
-Route::resource('/blogs', BlogController::class);
+

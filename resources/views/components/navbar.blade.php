@@ -18,9 +18,6 @@
                     <a class="nav-link" href="{{ route('projects.index') }}">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('blogs.index') }}">Blog</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
 
